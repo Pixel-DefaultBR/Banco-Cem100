@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "BancoCem.Controllers.TransferenceController",
+    "Method": "Transfer",
+    "RelativePath": "api/Transference/transfer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BancoCem.Models.Requests.TransferenceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BancoCem.Controllers.WalletController",
+    "Method": "CreateWallet",
+    "RelativePath": "api/Wallet/create-wallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BancoCem.Models.Requests.WalletRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

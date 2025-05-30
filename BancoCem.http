@@ -1,0 +1,6 @@
+@BancoCem_HostAddress = http://localhost:5041
+
+GET {{BancoCem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
